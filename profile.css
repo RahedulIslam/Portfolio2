@@ -1,0 +1,214 @@
+*{
+	margin:0px; padding:0px;outline:0px;
+}
+body{
+    background-image: url(Assets/Images/Bg33.jpg);background-repeat: no-repeat;
+}
+.box{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    
+}
+#About{
+    color:black;;
+    width: 793px;
+    height: 353px;
+    background-color:white;
+    display: block;
+    margin-left: 232px;
+    margin-top: 134px;
+    padding: 50px;
+    transition: 1s;
+}
+#About:hover{
+    border:2px solid black;
+   transform: scale(.9);
+   background-color: #6d6e6a;
+   color: white;
+
+}
+.img{
+    
+    width: 350px;
+    height: 185px;
+    display: block;
+    margin-left: 3px;
+    transition: 5s;
+    
+}
+img:hover{
+    transform: rotate(25deg);
+}
+.paragraph{
+    margin-left: 340px;
+    margin-top: -175px;
+    font-size: 22px;
+}
+.paragraph h3{
+    color:#07cb79;
+}
+.text{
+   font-size: 5px; 
+}
+.navsection{
+    width: 692px;
+    height: 36px;
+    display: block;
+    margin-left: 146px;
+    m: -21px;
+    padding: 38px;
+    text-decoration: none;
+    color: #07cb79;
+    margin-bottom: 68px;
+}
+.navsection h2{
+    margin-left: -166px;
+    margin-top: 21px;
+    color: white;
+}
+.navsection ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navsection ul li{
+    display: block;
+    float: left; 
+}
+.navsection ul li a{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #07cb79;
+    font-size: 21px;
+    margin-left: -52px;
+    margin-right: 34px;
+}
+.navsection ul li a:hover{
+    color:rgb(240, 16, 229);
+}
+.resume{
+    width:100%;
+    height: 286px;
+    background-color: white;
+    
+    text-align: center;
+    margin-top: 63px;
+}
+.resume h3{
+    margin-bottom:-13px;
+    font-size: 34px;
+    background-color: white;
+    padding: 53px;
+    color:#07cb79;  
+}
+.resume p{
+ font-size: 23px;
+}
+#Skills{
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    color: white#07cb79;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+#Skills h3{
+    font-size: 36px;
+    margin-bottom: -15px;
+    padding: 63px;
+    color: #07cb79;
+    font-size: 26px;
+}
+#Skills:hover{
+    background: linear-gradient(to right, #04a7dd 0%, #583bc2 100%);
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 1311px;
+    background-color: #ddd;
+    margin-left: -3px;
+    text-align: center;
+    margin-top: 124px;
+    background-color: #ddd;
+}
+#portfolio,#education,#work-experience,#My-interests,#Contact{
+    margin-top: 15px;
+    background-color: #ddd;
+    height: 400px;
+    font-size: 26px;
+    text-align: center;
+}
+#portfolio:hover{
+    background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+    color:white;
+}
+#education:hover{
+    background: linear-gradient(to right, #00090c 0%, #94054c 100%);
+    color: white;
+    height: 403px;
+}
+#work-experiience,#My-interests:hover{
+    height: 400px;
+    font-size: 22px;
+}
+#portfolio h3,#education h3,#portfolio h3,#work-experiience h3,#My-interests h3,#Contact h3{
+    font-size: 30px;
+    margin-bottom: -25px;
+    padding: 63px;
+    color: #07cb79;
+    margin-top: 23px;
+}
+#portfolio img{
+    margin-right:68px; 
+}
+#education p,#work-experiience p,#My-interests p,#Skills p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 71px;
+}
+#Contact{
+    margin-top: 15px;
+    background-color: white;
+    height:200px;
+
+}
+input[type=text], input[type=email]{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text], input[type=email],input[type=submit]:hover{ 
+    border:2px solid black;
+  }
+input[type=submit]{
+    width: 297px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 83px;
+}
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea:focus{
+    margin-left: 78px;
+    width: 299px;
+    border:2px solid black
+    }
+@media only screen and (min-eidth:480px) and (max-width:768px){
+    .template
+}
+
